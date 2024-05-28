@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6484793801204884148
+--- !u!1 &6399584492814690596
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6484793801204884151}
-  - component: {fileID: 6484793801204884150}
+  - component: {fileID: 6399584492814690599}
+  - component: {fileID: 6399584492814690598}
   m_Layer: 0
   m_Name: Label
   m_TagString: Untagged
@@ -17,36 +17,36 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6484793801204884151
+--- !u!4 &6399584492814690599
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6484793801204884148}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 6399584492814690596}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6484793801204884150
+--- !u!114 &6399584492814690598
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6484793801204884148}
+  m_GameObject: {fileID: 6399584492814690596}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f646f78efe8bb04ab822327ff706ad6, type: 3}
+  m_Script: {fileID: 11500000, guid: 085f54d2e52e8104584e70034234e2ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   guiPos:
-    screen_Alignment_Type: 5
-    control_Center_Alignment_Type: 5
-    pos: {x: 0, y: 0}
+    screen_Alignment_Type: 4
+    control_Center_Alignment_Type: 4
     width: 100
     height: 50
   content:
@@ -108,7 +108,7 @@ MonoBehaviour:
       m_Top: 0
       m_Bottom: 0
     m_Font: {fileID: 0}
-    m_FontSize: 0
+    m_FontSize: 50
     m_FontStyle: 0
     m_Alignment: 0
     m_WordWrap: 0
@@ -120,4 +120,4 @@ MonoBehaviour:
     m_FixedHeight: 0
     m_StretchWidth: 1
     m_StretchHeight: 0
-  styleOnOrOff: 1
+  styleOnOff: 0
